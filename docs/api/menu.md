@@ -1,4 +1,4 @@
-## Class: Menu
+ ## Class: Menu
 
 > Create native application menus and context menus.
 
@@ -17,7 +17,7 @@ The `menu` class has the following static methods:
 * `menu` Menu
 
 Sets `menu` as the application menu on macOS. On Windows and Linux, the `menu`
-will be set as each window's top menu.
+will be set as each window's top menu. Setting it to null will remove the menu bar.
 
 **Note:** This API has to be called after the `ready` event of `app` module.
 
